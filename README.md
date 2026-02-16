@@ -142,6 +142,7 @@ Content-Type: application/json
   "lowest": 10,
   "highest": 17
 }
+```
 
 ### Expected Flow
 
