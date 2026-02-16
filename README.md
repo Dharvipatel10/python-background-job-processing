@@ -114,6 +114,25 @@ rq worker -w rq.worker.SimpleWorker task_queue
 
 ---
 
+## 🧪 API Testing with Postman
+
+The API endpoints were tested using **Postman** to simulate real client requests and validate asynchronous job processing.
+
+### 🔹 Create Background Job
+
+**Method:** `POST`
+**URL:**
+
+```
+http://127.0.0.1:8000/job
+```
+
+### Headers
+
+```
+Content-Type: application/json
+```
+
 ## 📬 Example Request
 
 **POST** `/job`
@@ -123,7 +142,24 @@ rq worker -w rq.worker.SimpleWorker task_queue
   "lowest": 10,
   "highest": 17
 }
-```
+
+### Expected Flow
+
+1. Request is sent via Postman
+2. FastAPI validates input using **Pydantic**
+3. Job is pushed into **Redis queue**
+4. **RQ Worker** processes task asynchronously
+5. API remains responsive without blocking
+
+---
+
+### 💡 Why Postman?
+
+* Quick validation of API behaviour
+* Simulates real frontend/backend communication
+* Useful for debugging request payloads and responses
+
+---
 
 Workflow:
 
