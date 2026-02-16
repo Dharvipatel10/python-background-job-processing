@@ -157,19 +157,9 @@ Rather than focusing on complexity, the emphasis is on **clarity of architecture
 
 ---
 
-## 🧠 Future Improvements (Planned)
-
-* Job status endpoint
-* Retry & failure handling
-* Multiple priority queues
-* Docker Compose setup
-* Monitoring dashboard
-
----
-
 ## 👨‍💻 Author
 
-**Dipesh Ashokbhai Suhagiya**
-M.Sc. Advanced Functional Materials — TU Chemnitz
+**Dharvi Patel**
+M.Sc. Automotive Software Engineering — TU Chemnitz
 
 Building systems at the intersection of **engineering, automation, and intelligent software**.
