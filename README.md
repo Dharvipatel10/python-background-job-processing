@@ -120,7 +120,8 @@ rq worker -w rq.worker.SimpleWorker task_queue
 
 ```json
 {
-  "number": 10
+  "lowest": 10,
+  "highest": 17
 }
 ```
 
