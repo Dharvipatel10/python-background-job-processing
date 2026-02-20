@@ -180,20 +180,6 @@ Workflow:
 
 ---
 
-## 🎯 What This Demonstrates to Reviewers
-
-This repository highlights understanding of:
-
-* API design patterns
-* Distributed job processing
-* Backend scalability concepts
-* Clean Python project structuring
-* Real-world development workflow (Docker + Git)
-
-Rather than focusing on complexity, the emphasis is on **clarity of architecture** — showing how small systems can be built using professional patterns.
-
----
-
 ## 👨‍💻 Author
 
 **Dharvi Patel**
